@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:faker/faker.dart';
 import 'package:package_flutter/pages/HomePage.dart';
+import 'package:package_flutter/pages/ProfilePage.dart';
 
 void main() {
   var faker = new Faker();
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Profilepage(),
     );
   }
 }
