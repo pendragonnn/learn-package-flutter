@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 // import 'package:package_flutter/pages/HomePage.dart';
 // import 'package:package_flutter/pages/ProfilePage.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:package_flutter/pages/DropDownPage.dart';
 import 'package:package_flutter/pages/HomePage.dart';
 import 'package:package_flutter/pages/IntroductionPage.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntroductionPage(),
+      home: DropDownPage(),
     );
   }
 }
