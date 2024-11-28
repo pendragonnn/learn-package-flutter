@@ -45,7 +45,6 @@ class DropDownPage extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: DropdownSearch<Map<String, dynamic>>(
           mode: Mode.form,
-          items: (f, cs) => dataList,
           selectedItem: {
             "country": "Canada",
             "id": 3,
